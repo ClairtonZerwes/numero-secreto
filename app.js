@@ -1,7 +1,7 @@
 let listaNumerosSorteados = [];
-let numMinSecreto = 6;
-let numMaxSecreto = 12;
-let maximoTentativas = 3;
+let numMinSecreto = 5;
+let numMaxSecreto = 25;
+let maximoTentativas = 5;
 let contarTentativas = 1;
 let numeroSecreto = obterNumeroInteiroAleatorio(numMinSecreto, numMaxSecreto);
 alert(`Bem Vindo! Adivinhe o número secreto. \nVocê tem ${maximoTentativas} Tentivas.`);
