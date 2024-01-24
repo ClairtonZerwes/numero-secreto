@@ -21,7 +21,7 @@ function exibirMensagemInicial() {
 }
 
 function exibirParagrafo() {
-    exibirTextoNaTela('p', `Escolha um número entre ${numMinSecreto} e ${numMaxSecreto} - ${contarTentativas}ª ${palavraTentativa()}`);
+    exibirTextoNaTela('p', `Escolha um número entre ${numMinSecreto} e ${numMaxSecreto} - ${palavraTentativa()}: ${contarTentativas}ª `);
 }
 
 function verificarChuteOnclick() {
